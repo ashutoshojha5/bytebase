@@ -3,7 +3,7 @@ package hub
 import (
 	"github.com/golang-jwt/jwt"
 
-	"github.com/bytebase/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/common"
 )
 
 func parseJWTToken(tokenString, expectVersion, publicKey string, claims jwt.Claims) error {

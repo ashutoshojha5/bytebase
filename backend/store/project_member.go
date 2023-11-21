@@ -11,7 +11,7 @@ import (
 	"google.golang.org/genproto/googleapis/type/expr"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	api "github.com/bytebase/bytebase/backend/legacyapi"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
 )
 
 // IAMPolicyMessage is the IAM policy of a project.

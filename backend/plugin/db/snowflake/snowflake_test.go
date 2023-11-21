@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/bytebase/bytebase/backend/plugin/db"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db"
 )
 
 func TestBuildSnowflakeDSN(t *testing.T) {

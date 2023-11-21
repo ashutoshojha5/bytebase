@@ -7,7 +7,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/bytebase/bytebase/backend/plugin/db/util"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db/util"
 )
 
 // Dump dumps the database.

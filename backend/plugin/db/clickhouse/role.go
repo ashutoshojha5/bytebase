@@ -7,9 +7,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/plugin/db"
-	"github.com/bytebase/bytebase/backend/plugin/db/util"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db/util"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 // CreateRole creates the role.

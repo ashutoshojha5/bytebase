@@ -16,10 +16,10 @@ import (
 	"golang.org/x/exp/slices"
 	"gopkg.in/yaml.v3"
 
-	"github.com/bytebase/bytebase/backend/plugin/advisor/catalog"
-	database "github.com/bytebase/bytebase/backend/plugin/db"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/advisor/catalog"
+	database "github.com/ashutoshojha5/bytebase/backend/plugin/db"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 var (

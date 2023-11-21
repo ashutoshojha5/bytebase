@@ -7,12 +7,12 @@ import (
 	"github.com/github/gh-ost/go/logic"
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/common"
-	"github.com/bytebase/bytebase/backend/component/ghost"
-	api "github.com/bytebase/bytebase/backend/legacyapi"
-	"github.com/bytebase/bytebase/backend/store"
-	"github.com/bytebase/bytebase/backend/utils"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/component/ghost"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
+	"github.com/ashutoshojha5/bytebase/backend/store"
+	"github.com/ashutoshojha5/bytebase/backend/utils"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 // NewGhostSyncExecutor creates a gh-ost sync check executor.

@@ -7,15 +7,15 @@ import (
 	"io"
 	"net/http"
 
-	metricapi "github.com/bytebase/bytebase/backend/metric"
+	metricapi "github.com/ashutoshojha5/bytebase/backend/metric"
 
 	"github.com/labstack/echo/v4"
 	"gopkg.in/yaml.v3"
 
-	"github.com/bytebase/bytebase/backend/plugin/advisor"
-	"github.com/bytebase/bytebase/backend/plugin/advisor/catalog"
-	"github.com/bytebase/bytebase/backend/plugin/metric"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/advisor"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/advisor/catalog"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/metric"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 var (
@@ -58,7 +58,7 @@ func (s *Server) registerAdvisorRoutes(g *echo.Group) {
 // @Param  statement     body  string  true   "The SQL statement."
 // @Param  databaseType  body  string  true   "The database type."  Enums(MYSQL, POSTGRES, TIDB, OCEANBASE, SNOWFLAKE, MSSQL)
 // @Param  templateId    body  string  false  "The SQL check template id. Required if the config is not specified." Enums(bb.sql-review.prod, bb.sql-review.dev)
-// @Param  override      body  string  false  "The SQL check config override string in YAML format. Check https://github.com/bytebase/bytebase/tree/main/backend/plugin/advisor/config/sql-review.override.yaml for example. Required if the template is not specified."
+// @Param  override      body  string  false  "The SQL check config override string in YAML format. Check https://github.com/ashutoshojha5/bytebase/tree/main/backend/plugin/advisor/config/sql-review.override.yaml for example. Required if the template is not specified."
 // @Success  200  {array}   advisor.Advice
 // @Failure  400  {object}  echo.HTTPError
 // @Failure  500  {object}  echo.HTTPError

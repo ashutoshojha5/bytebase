@@ -6,7 +6,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/bytebase/bytebase/backend/plugin/db"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db"
 )
 
 func getMySQLConnectionConfig(port string, database string) db.ConnectionConfig {

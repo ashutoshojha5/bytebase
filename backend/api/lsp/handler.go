@@ -11,10 +11,10 @@ import (
 	"github.com/sourcegraph/go-lsp"
 	"github.com/sourcegraph/jsonrpc2"
 
-	"github.com/bytebase/bytebase/backend/common"
-	"github.com/bytebase/bytebase/backend/common/log"
-	"github.com/bytebase/bytebase/backend/store"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/common/log"
+	"github.com/ashutoshojha5/bytebase/backend/store"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 type Method string

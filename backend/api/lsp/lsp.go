@@ -13,9 +13,9 @@ import (
 
 	wsjsonrpc2 "github.com/sourcegraph/jsonrpc2/websocket"
 
-	"github.com/bytebase/bytebase/backend/common/log"
-	"github.com/bytebase/bytebase/backend/common/stacktrace"
-	"github.com/bytebase/bytebase/backend/store"
+	"github.com/ashutoshojha5/bytebase/backend/common/log"
+	"github.com/ashutoshojha5/bytebase/backend/common/stacktrace"
+	"github.com/ashutoshojha5/bytebase/backend/store"
 )
 
 var (

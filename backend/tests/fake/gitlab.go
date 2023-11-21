@@ -16,8 +16,8 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/plugin/vcs"
-	"github.com/bytebase/bytebase/backend/plugin/vcs/gitlab"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs/gitlab"
 )
 
 // GitLab is a fake implementation of GitLab VCS provider.

@@ -9,9 +9,9 @@ import (
 	mysql "github.com/bytebase/mysql-parser"
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/plugin/advisor"
-	mysqlparser "github.com/bytebase/bytebase/backend/plugin/parser/mysql"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/advisor"
+	mysqlparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/mysql"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 var (

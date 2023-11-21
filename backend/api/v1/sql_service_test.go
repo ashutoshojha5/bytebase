@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/base"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/base"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 func TestGetSQLStatementPrefix(t *testing.T) {

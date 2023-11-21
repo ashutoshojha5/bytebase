@@ -1,9 +1,9 @@
 package api
 
 import (
-	"github.com/bytebase/bytebase/backend/plugin/advisor"
-	"github.com/bytebase/bytebase/backend/plugin/vcs"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/advisor"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 // ActivityType is the type for an activity.

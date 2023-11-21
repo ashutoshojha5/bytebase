@@ -8,10 +8,10 @@ import (
 	parser "github.com/bytebase/snowsql-parser"
 	"github.com/pkg/errors"
 
-	snowsqlparser "github.com/bytebase/bytebase/backend/plugin/parser/snowflake"
+	snowsqlparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/snowflake"
 
-	"github.com/bytebase/bytebase/backend/plugin/advisor"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/advisor"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 var (

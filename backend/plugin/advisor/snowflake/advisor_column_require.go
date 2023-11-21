@@ -9,9 +9,9 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/exp/slices"
 
-	"github.com/bytebase/bytebase/backend/plugin/advisor"
-	snowsqlparser "github.com/bytebase/bytebase/backend/plugin/parser/snowflake"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/advisor"
+	snowsqlparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/snowflake"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 var (

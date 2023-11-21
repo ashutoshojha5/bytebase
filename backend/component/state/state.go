@@ -7,7 +7,7 @@ import (
 
 	lru "github.com/hashicorp/golang-lru/v2"
 
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 
 	"github.com/pkg/errors"
 )

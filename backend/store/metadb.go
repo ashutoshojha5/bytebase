@@ -7,8 +7,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/common"
-	dbdriver "github.com/bytebase/bytebase/backend/plugin/db"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	dbdriver "github.com/ashutoshojha5/bytebase/backend/plugin/db"
 )
 
 // GetEmbeddedConnectionConfig gets the embedded connection config.

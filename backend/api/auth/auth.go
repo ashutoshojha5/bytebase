@@ -18,10 +18,10 @@ import (
 	"github.com/golang-jwt/jwt/v4"
 	errs "github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/common"
-	"github.com/bytebase/bytebase/backend/component/state"
-	enterprise "github.com/bytebase/bytebase/backend/enterprise/api"
-	"github.com/bytebase/bytebase/backend/store"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/component/state"
+	enterprise "github.com/ashutoshojha5/bytebase/backend/enterprise/api"
+	"github.com/ashutoshojha5/bytebase/backend/store"
 )
 
 const (

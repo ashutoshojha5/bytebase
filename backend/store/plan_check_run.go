@@ -8,7 +8,7 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 // PlanCheckRunType is the type of a plan check run.

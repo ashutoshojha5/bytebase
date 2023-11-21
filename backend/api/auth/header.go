@@ -61,7 +61,7 @@ func (m *GatewayResponseModifier) processMetadata(md runtime.ServerMetadata, met
 			Path:    "/",
 			// Http-only helps mitigate the risk of client side script accessing the protected cookie.
 			HttpOnly: httpOnly,
-			// See https://github.com/bytebase/bytebase/issues/31.
+			// See https://github.com/ashutoshojha5/bytebase/issues/31.
 			Secure:   isHTTPS,
 			SameSite: sameSite,
 		})

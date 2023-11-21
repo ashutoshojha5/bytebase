@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/sql/ast"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/ast"
 )
 
 func deparseImpl(context DeparseContext, in ast.Node, buf *strings.Builder) error {

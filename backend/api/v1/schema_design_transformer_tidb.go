@@ -13,8 +13,8 @@ import (
 	tidbmysql "github.com/pingcap/tidb/parser/mysql"
 	tidbtypes "github.com/pingcap/tidb/parser/types"
 
-	tidbparser "github.com/bytebase/bytebase/backend/plugin/parser/tidb"
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	tidbparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/tidb"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 func checkTiDBColumnType(tp string) bool {

@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 func TestUpdateDatabaseConfig(t *testing.T) {

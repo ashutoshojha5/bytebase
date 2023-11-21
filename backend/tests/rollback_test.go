@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/fieldmaskpb"
 
-	resourcemysql "github.com/bytebase/bytebase/backend/resources/mysql"
-	"github.com/bytebase/bytebase/backend/tests/fake"
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	resourcemysql "github.com/ashutoshojha5/bytebase/backend/resources/mysql"
+	"github.com/ashutoshojha5/bytebase/backend/tests/fake"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 func TestCreateRollbackIssueMySQL(t *testing.T) {

@@ -10,8 +10,8 @@ import (
 	tidbast "github.com/pingcap/tidb/parser/ast"
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/base"
-	"github.com/bytebase/bytebase/backend/plugin/parser/sql/ast"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/base"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/ast"
 )
 
 const (

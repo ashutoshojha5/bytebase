@@ -1,6 +1,6 @@
 # Code Review Guide
 
-_Note: also applies to [bytebase.com](https://github.com/bytebase/bytebase.com)._
+_Note: also applies to [bytebase.com](https://github.com/ashutoshojha5/bytebase.com)._
 
 1. [Google's Code Review Guideline](https://google.github.io/eng-practices/).
 1. Effective communication. Expect responses for **up to one business day**.

@@ -1,6 +1,6 @@
 package sqlserver
 
-import "github.com/bytebase/bytebase/backend/common"
+import "github.com/ashutoshojha5/bytebase/backend/common"
 
 // Profile is the configuration to start main server.
 type Profile struct {

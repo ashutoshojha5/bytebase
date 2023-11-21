@@ -8,9 +8,9 @@ import (
 	parser "github.com/bytebase/tsql-parser"
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/plugin/advisor"
-	tsqlparser "github.com/bytebase/bytebase/backend/plugin/parser/tsql"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/advisor"
+	tsqlparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/tsql"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 var (

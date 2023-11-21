@@ -14,9 +14,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/plugin/db"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 // ListSlowQueryMessage is the message to list slow query logs.

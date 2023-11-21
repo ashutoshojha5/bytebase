@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"sort"
 
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 // mergeDatabaseConfig computes the migration from target and baseline, and applies the migration to current databaseConfig.

@@ -3,10 +3,10 @@ package aws
 import (
 	"context"
 
-	enterprise "github.com/bytebase/bytebase/backend/enterprise/api"
-	"github.com/bytebase/bytebase/backend/enterprise/config"
-	"github.com/bytebase/bytebase/backend/enterprise/plugin"
-	api "github.com/bytebase/bytebase/backend/legacyapi"
+	enterprise "github.com/ashutoshojha5/bytebase/backend/enterprise/api"
+	"github.com/ashutoshojha5/bytebase/backend/enterprise/config"
+	"github.com/ashutoshojha5/bytebase/backend/enterprise/plugin"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
 )
 
 var _ plugin.LicenseProvider = (*Provider)(nil)

@@ -16,13 +16,13 @@ import (
 	"github.com/blang/semver/v4"
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/common"
-	api "github.com/bytebase/bytebase/backend/legacyapi"
-	dbdriver "github.com/bytebase/bytebase/backend/plugin/db"
-	"github.com/bytebase/bytebase/backend/store"
-	"github.com/bytebase/bytebase/backend/store/model"
-	"github.com/bytebase/bytebase/backend/utils"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
+	dbdriver "github.com/ashutoshojha5/bytebase/backend/plugin/db"
+	"github.com/ashutoshojha5/bytebase/backend/store"
+	"github.com/ashutoshojha5/bytebase/backend/store/model"
+	"github.com/ashutoshojha5/bytebase/backend/utils"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 //go:embed migration
@@ -188,7 +188,7 @@ const (
 // We prepend each migration file with version = xxx; Each migration
 // file run in a transaction to prevent partial migrations.
 //
-// The procedure follows https://github.com/bytebase/bytebase/blob/main/docs/schema-update-guide.md.
+// The procedure follows https://github.com/ashutoshojha5/bytebase/blob/main/docs/schema-update-guide.md.
 func migrate(ctx context.Context, storeInstance *store.Store, metadataDriver dbdriver.Driver, cutoffSchemaVersion, curVer semver.Version, mode common.ReleaseMode, serverVersion, databaseName string) error {
 	slog.Info("Apply database migration if needed...")
 	slog.Info(fmt.Sprintf("Current schema version before migration: %s", curVer))

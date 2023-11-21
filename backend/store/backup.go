@@ -10,9 +10,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/common"
-	api "github.com/bytebase/bytebase/backend/legacyapi"
-	"github.com/bytebase/bytebase/backend/store/model"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
+	"github.com/ashutoshojha5/bytebase/backend/store/model"
 )
 
 // BackupSettingsMatchMessage is the message to find backup settings matching the conditions.

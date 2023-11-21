@@ -5,7 +5,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/plugin/db"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db"
 )
 
 // Role

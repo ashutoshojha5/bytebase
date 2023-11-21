@@ -25,27 +25,27 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/bytebase/bytebase/backend/common"
-	"github.com/bytebase/bytebase/backend/common/log"
-	"github.com/bytebase/bytebase/backend/component/activity"
-	api "github.com/bytebase/bytebase/backend/legacyapi"
-	"github.com/bytebase/bytebase/backend/plugin/advisor"
-	"github.com/bytebase/bytebase/backend/plugin/db"
-	configparser "github.com/bytebase/bytebase/backend/plugin/parser/mybatis/configuration"
-	mapperparser "github.com/bytebase/bytebase/backend/plugin/parser/mybatis/mapper"
-	"github.com/bytebase/bytebase/backend/plugin/parser/mybatis/mapper/ast"
-	"github.com/bytebase/bytebase/backend/plugin/vcs"
-	"github.com/bytebase/bytebase/backend/store/model"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/common/log"
+	"github.com/ashutoshojha5/bytebase/backend/component/activity"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/advisor"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db"
+	configparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/mybatis/configuration"
+	mapperparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/mybatis/mapper"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/mybatis/mapper/ast"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs"
+	"github.com/ashutoshojha5/bytebase/backend/store/model"
 
 	// Register azure plugin.
-	"github.com/bytebase/bytebase/backend/plugin/vcs/azure"
-	"github.com/bytebase/bytebase/backend/plugin/vcs/bitbucket"
-	"github.com/bytebase/bytebase/backend/plugin/vcs/github"
-	"github.com/bytebase/bytebase/backend/plugin/vcs/gitlab"
-	"github.com/bytebase/bytebase/backend/store"
-	"github.com/bytebase/bytebase/backend/utils"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs/azure"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs/bitbucket"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs/github"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs/gitlab"
+	"github.com/ashutoshojha5/bytebase/backend/store"
+	"github.com/ashutoshojha5/bytebase/backend/utils"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 const (
@@ -951,7 +951,7 @@ func (s *Service) sqlAdviceForFile(
 	}
 
 	// TODO(ed): findProjectDatabases doesn't support the tenant mode.
-	// We can use https://github.com/bytebase/bytebase/blob/main/server/issue.go#L691 to find databases in tenant mode project.
+	// We can use https://github.com/ashutoshojha5/bytebase/blob/main/server/issue.go#L691 to find databases in tenant mode project.
 	databases, err := s.findProjectDatabases(ctx, fileInfo.repoInfo.project.UID, fileInfo.migrationInfo.Database, fileInfo.migrationInfo.Environment)
 	if err != nil {
 		slog.Debug(

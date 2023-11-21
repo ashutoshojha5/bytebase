@@ -7,7 +7,7 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v3"
 
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 //go:embed config/sql-review.sample.yaml

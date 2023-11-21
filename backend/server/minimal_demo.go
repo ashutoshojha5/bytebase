@@ -6,18 +6,18 @@ import (
 	// This includes more databases such as MySQL, SQLite, TiDB.
 
 	// Drivers.
-	_ "github.com/bytebase/bytebase/backend/plugin/db/mysql"
-	_ "github.com/bytebase/bytebase/backend/plugin/db/sqlite"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/db/mysql"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/db/sqlite"
 
 	// Parsers.
-	_ "github.com/bytebase/bytebase/backend/plugin/parser/mysql"
-	_ "github.com/bytebase/bytebase/backend/plugin/parser/standard"
-	_ "github.com/bytebase/bytebase/backend/plugin/parser/tidb"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/parser/mysql"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/parser/standard"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/parser/tidb"
 
 	// Advisors.
-	_ "github.com/bytebase/bytebase/backend/plugin/advisor/mysql"
-	_ "github.com/bytebase/bytebase/backend/plugin/advisor/tidb"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/advisor/mysql"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/advisor/tidb"
 
 	// Transformers.
-	_ "github.com/bytebase/bytebase/backend/plugin/parser/sql/transform/mysql"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/transform/mysql"
 )

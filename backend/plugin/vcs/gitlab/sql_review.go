@@ -6,7 +6,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/bytebase/bytebase/backend/plugin/vcs"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs"
 )
 
 const (

@@ -16,10 +16,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/common"
-	"github.com/bytebase/bytebase/backend/common/log"
-	"github.com/bytebase/bytebase/backend/plugin/db"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/common/log"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 // Sample data is from https://github.com/bytebase/employee-sample-database/tree/main/postgres/dataset_small

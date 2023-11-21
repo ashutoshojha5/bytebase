@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/base"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/base"
 )
 
 func TestValidateSQLForEditor(t *testing.T) {

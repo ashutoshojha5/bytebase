@@ -16,9 +16,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/bytebase/bytebase/backend/common"
-	"github.com/bytebase/bytebase/backend/common/log"
-	"github.com/bytebase/bytebase/backend/server"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/common/log"
+	"github.com/ashutoshojha5/bytebase/backend/server"
 )
 
 // -----------------------------------Global constant BEGIN----------------------------------------.

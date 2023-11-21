@@ -8,8 +8,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/common"
-	api "github.com/bytebase/bytebase/backend/legacyapi"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
 )
 
 // RepositoryMessage is the message for a repository.

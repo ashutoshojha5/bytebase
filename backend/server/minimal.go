@@ -4,14 +4,14 @@ import (
 	// This includes the first-class database, Postgres.
 
 	// Drivers.
-	_ "github.com/bytebase/bytebase/backend/plugin/db/pg"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/db/pg"
 
 	// Parsers.
-	_ "github.com/bytebase/bytebase/backend/plugin/parser/pg"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/parser/pg"
 
 	// Advisors.
-	_ "github.com/bytebase/bytebase/backend/plugin/advisor/pg"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/advisor/pg"
 
 	// Editors.
-	_ "github.com/bytebase/bytebase/backend/plugin/parser/sql/engine/pg"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/engine/pg"
 )

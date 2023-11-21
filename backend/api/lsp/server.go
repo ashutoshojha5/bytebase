@@ -3,7 +3,7 @@ package lsp
 import (
 	"sync/atomic"
 
-	"github.com/bytebase/bytebase/backend/store"
+	"github.com/ashutoshojha5/bytebase/backend/store"
 )
 
 // Server is the Language Server Protocol service.

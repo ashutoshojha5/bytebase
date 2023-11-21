@@ -2,12 +2,12 @@
 package gitops
 
 import (
-	v1pb "github.com/bytebase/bytebase/backend/api/v1"
-	"github.com/bytebase/bytebase/backend/component/activity"
-	"github.com/bytebase/bytebase/backend/component/dbfactory"
-	"github.com/bytebase/bytebase/backend/component/state"
-	enterprise "github.com/bytebase/bytebase/backend/enterprise/api"
-	"github.com/bytebase/bytebase/backend/store"
+	v1pb "github.com/ashutoshojha5/bytebase/backend/api/v1"
+	"github.com/ashutoshojha5/bytebase/backend/component/activity"
+	"github.com/ashutoshojha5/bytebase/backend/component/dbfactory"
+	"github.com/ashutoshojha5/bytebase/backend/component/state"
+	enterprise "github.com/ashutoshojha5/bytebase/backend/enterprise/api"
+	"github.com/ashutoshojha5/bytebase/backend/store"
 )
 
 // Service is the API endpoint for handling GitOps requests.

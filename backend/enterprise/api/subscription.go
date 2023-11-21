@@ -3,7 +3,7 @@ package api
 import (
 	"time"
 
-	api "github.com/bytebase/bytebase/backend/legacyapi"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
 )
 
 // SubscriptionPatch is the API message for update the subscription.

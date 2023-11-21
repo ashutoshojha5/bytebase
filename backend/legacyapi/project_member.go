@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/bytebase/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/common"
 )
 
 // ProjectPermissionType is the type of a project permission.

@@ -13,13 +13,13 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/bytebase/bytebase/backend/common"
-	"github.com/bytebase/bytebase/backend/plugin/db"
-	"github.com/bytebase/bytebase/backend/plugin/db/util"
-	pgparser "github.com/bytebase/bytebase/backend/plugin/parser/pg"
-	"github.com/bytebase/bytebase/backend/plugin/parser/sql/ast"
-	pgrawparser "github.com/bytebase/bytebase/backend/plugin/parser/sql/engine/pg"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db/util"
+	pgparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/pg"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/ast"
+	pgrawparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/engine/pg"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 // SyncInstance syncs the instance.
@@ -527,7 +527,7 @@ func getViews(txn *sql.Tx) (map[string][]*storepb.ViewMetadata, error) {
 		}
 
 		// Return error on NULL view definition.
-		// https://github.com/bytebase/bytebase/issues/343
+		// https://github.com/ashutoshojha5/bytebase/issues/343
 		if !def.Valid {
 			return nil, errors.Errorf("schema %q view %q has empty definition; please check whether proper privileges have been granted to Bytebase", schemaName, view.Name)
 		}

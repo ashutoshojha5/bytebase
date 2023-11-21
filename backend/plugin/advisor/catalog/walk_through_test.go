@@ -14,10 +14,10 @@ import (
 	"google.golang.org/protobuf/types/known/wrapperspb"
 	"gopkg.in/yaml.v3"
 
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 
 	// Register postgresql parser driver.
-	_ "github.com/bytebase/bytebase/backend/plugin/parser/sql/engine/pg"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/engine/pg"
 )
 
 type testData struct {

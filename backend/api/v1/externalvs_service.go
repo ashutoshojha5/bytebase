@@ -12,10 +12,10 @@ import (
 	"google.golang.org/protobuf/types/known/emptypb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/bytebase/bytebase/backend/common"
-	"github.com/bytebase/bytebase/backend/plugin/vcs"
-	"github.com/bytebase/bytebase/backend/store"
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs"
+	"github.com/ashutoshojha5/bytebase/backend/store"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 // ExternalVersionControlService represents a service for managing external version control.
@@ -250,8 +250,8 @@ func (s *ExternalVersionControlService) ExchangeToken(ctx context.Context, reque
 		clientSecret := request.ExchangeToken.ClientSecret
 		// Since we may not pass in ClientID and ClientSecret in the request, we will use the client ID and secret from VCS store even if it's stale.
 		// If it's stale, we should return better error messages and ask users to update the VCS secrets.
-		// https://sourcegraph.com/github.com/bytebase/bytebase/-/blob/frontend/src/components/RepositorySelectionPanel.vue?L77:8&subtree=true
-		// https://github.com/bytebase/bytebase/issues/1372
+		// https://sourcegraph.com/github.com/ashutoshojha5/bytebase/-/blob/frontend/src/components/RepositorySelectionPanel.vue?L77:8&subtree=true
+		// https://github.com/ashutoshojha5/bytebase/issues/1372
 		if clientID == "" || clientSecret == "" {
 			clientID = externalVersionControl.ApplicationID
 			clientSecret = externalVersionControl.Secret

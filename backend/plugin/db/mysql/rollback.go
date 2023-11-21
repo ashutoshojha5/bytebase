@@ -14,8 +14,8 @@ import (
 	"github.com/pingcap/tidb/parser/ast"
 	"github.com/pkg/errors"
 
-	tidbparser "github.com/bytebase/bytebase/backend/plugin/parser/tidb"
-	"github.com/bytebase/bytebase/backend/resources/mysqlutil"
+	tidbparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/tidb"
+	"github.com/ashutoshojha5/bytebase/backend/resources/mysqlutil"
 )
 
 var (

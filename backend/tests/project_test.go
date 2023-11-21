@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	api "github.com/bytebase/bytebase/backend/legacyapi"
-	"github.com/bytebase/bytebase/backend/tests/fake"
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
+	"github.com/ashutoshojha5/bytebase/backend/tests/fake"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 func TestArchiveProject(t *testing.T) {

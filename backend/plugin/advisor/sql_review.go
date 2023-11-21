@@ -16,17 +16,17 @@ import (
 	tidbparser "github.com/pingcap/tidb/parser"
 	tidbast "github.com/pingcap/tidb/parser/ast"
 
-	"github.com/bytebase/bytebase/backend/common/log"
-	"github.com/bytebase/bytebase/backend/plugin/advisor/catalog"
-	"github.com/bytebase/bytebase/backend/plugin/parser/base"
-	mysqlparser "github.com/bytebase/bytebase/backend/plugin/parser/mysql"
-	plsqlparser "github.com/bytebase/bytebase/backend/plugin/parser/plsql"
-	snowsqlparser "github.com/bytebase/bytebase/backend/plugin/parser/snowflake"
-	"github.com/bytebase/bytebase/backend/plugin/parser/sql/ast"
-	pgrawparser "github.com/bytebase/bytebase/backend/plugin/parser/sql/engine/pg"
-	tidbbbparser "github.com/bytebase/bytebase/backend/plugin/parser/tidb"
-	tsqlparser "github.com/bytebase/bytebase/backend/plugin/parser/tsql"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/common/log"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/advisor/catalog"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/base"
+	mysqlparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/mysql"
+	plsqlparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/plsql"
+	snowsqlparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/snowflake"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/ast"
+	pgrawparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/engine/pg"
+	tidbbbparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/tidb"
+	tsqlparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/tsql"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 // How to add a SQL review rule:
@@ -574,7 +574,7 @@ func newTiDBParser() *tidbparser.Parser {
 	p := tidbparser.New()
 
 	// To support MySQL8 window function syntax.
-	// See https://github.com/bytebase/bytebase/issues/175.
+	// See https://github.com/ashutoshojha5/bytebase/issues/175.
 	p.EnableWindowFunc(true)
 
 	return p

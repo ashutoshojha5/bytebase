@@ -19,8 +19,8 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/plugin/vcs"
-	"github.com/bytebase/bytebase/backend/plugin/vcs/github"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs/github"
 )
 
 // GitHub is a fake implementation of GitHub VCS provider.

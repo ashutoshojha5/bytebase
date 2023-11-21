@@ -40,7 +40,7 @@ docker run --init \
 ## Run on render
 
 1. Set the [PORT env](https://render.com/docs/environment-variables#all-services-1) to 8080.
-1. Use [/scripts/Dockerfile.render-demo](https://github.com/bytebase/bytebase/blob/main/scripts/Dockerfile.render-demo) as the Dockerfile.
+1. Use [/scripts/Dockerfile.render-demo](https://github.com/ashutoshojha5/bytebase/blob/main/scripts/Dockerfile.render-demo) as the Dockerfile.
 1. Supply `bytebase --port 8080 --data /var/opt/bytebase --demo next` to the Docker Command.
 
 # How to update demo data

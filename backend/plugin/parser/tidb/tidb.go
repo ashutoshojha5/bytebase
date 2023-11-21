@@ -12,8 +12,8 @@ import (
 	// The packege parser_driver has to be imported.
 	_ "github.com/pingcap/tidb/types/parser_driver"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/base"
-	"github.com/bytebase/bytebase/backend/plugin/parser/tokenizer"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/base"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/tokenizer"
 )
 
 // ParseTiDB parses the given SQL statement and returns the AST.
@@ -21,7 +21,7 @@ func ParseTiDB(sql string, charset string, collation string) ([]ast.StmtNode, er
 	p := tidbparser.New()
 
 	// To support MySQL8 window function syntax.
-	// See https://github.com/bytebase/bytebase/issues/175.
+	// See https://github.com/ashutoshojha5/bytebase/issues/175.
 	p.EnableWindowFunc(true)
 
 	nodes, _, err := p.Parse(sql, charset, collation)

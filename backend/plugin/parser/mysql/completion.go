@@ -8,9 +8,9 @@ import (
 	"github.com/antlr4-go/antlr/v4"
 	mysql "github.com/bytebase/mysql-parser"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/base"
-	"github.com/bytebase/bytebase/backend/store/model"
-	"github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/base"
+	"github.com/ashutoshojha5/bytebase/backend/store/model"
+	"github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 var (

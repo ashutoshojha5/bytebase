@@ -8,7 +8,7 @@ import (
 	tidbast "github.com/pingcap/tidb/parser/ast"
 	"github.com/stretchr/testify/require"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/base"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/base"
 )
 
 type setLineTestData struct {

@@ -13,11 +13,11 @@ import (
 	"github.com/pingcap/tidb/parser/mysql"
 	"github.com/pkg/errors"
 
-	mysqlparser "github.com/bytebase/bytebase/backend/plugin/parser/mysql"
-	tidbparser "github.com/bytebase/bytebase/backend/plugin/parser/tidb"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	mysqlparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/mysql"
+	tidbparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/tidb"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/sql/transform"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/transform"
 )
 
 var (

@@ -10,12 +10,12 @@ import (
 
 	pgquery "github.com/pganalyze/pg_query_go/v4"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/pg"
-	"github.com/bytebase/bytebase/backend/plugin/parser/sql/ast"
-	pgrawparser "github.com/bytebase/bytebase/backend/plugin/parser/sql/engine/pg"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/pg"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/ast"
+	pgrawparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/engine/pg"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/base"
-	"github.com/bytebase/bytebase/backend/store/model"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/base"
+	"github.com/ashutoshojha5/bytebase/backend/store/model"
 )
 
 const (

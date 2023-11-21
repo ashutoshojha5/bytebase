@@ -3,8 +3,8 @@ package tidb
 import (
 	"testing"
 
-	"github.com/bytebase/bytebase/backend/plugin/advisor"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/advisor"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 func TestTiDBRules(t *testing.T) {

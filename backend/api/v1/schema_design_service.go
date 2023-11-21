@@ -12,13 +12,13 @@ import (
 	"google.golang.org/protobuf/types/known/emptypb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/bytebase/bytebase/backend/common"
-	enterprise "github.com/bytebase/bytebase/backend/enterprise/api"
-	api "github.com/bytebase/bytebase/backend/legacyapi"
-	"github.com/bytebase/bytebase/backend/plugin/parser/base"
-	"github.com/bytebase/bytebase/backend/store"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	enterprise "github.com/ashutoshojha5/bytebase/backend/enterprise/api"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/base"
+	"github.com/ashutoshojha5/bytebase/backend/store"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 // SchemaDesignService implements SchemaDesignServiceServer interface.

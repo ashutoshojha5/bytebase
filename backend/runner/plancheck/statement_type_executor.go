@@ -8,18 +8,18 @@ import (
 	tidbast "github.com/pingcap/tidb/parser/ast"
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/common"
-	"github.com/bytebase/bytebase/backend/component/dbfactory"
-	api "github.com/bytebase/bytebase/backend/legacyapi"
-	"github.com/bytebase/bytebase/backend/plugin/advisor"
-	"github.com/bytebase/bytebase/backend/plugin/parser/base"
-	"github.com/bytebase/bytebase/backend/plugin/parser/sql/ast"
-	pgrawparser "github.com/bytebase/bytebase/backend/plugin/parser/sql/engine/pg"
-	tidbparser "github.com/bytebase/bytebase/backend/plugin/parser/tidb"
-	runnerutils "github.com/bytebase/bytebase/backend/runner/utils"
-	"github.com/bytebase/bytebase/backend/store"
-	"github.com/bytebase/bytebase/backend/utils"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/component/dbfactory"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/advisor"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/base"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/ast"
+	pgrawparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/engine/pg"
+	tidbparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/tidb"
+	runnerutils "github.com/ashutoshojha5/bytebase/backend/runner/utils"
+	"github.com/ashutoshojha5/bytebase/backend/store"
+	"github.com/ashutoshojha5/bytebase/backend/utils"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 var _ Executor = (*StatementTypeExecutor)(nil)
@@ -508,7 +508,7 @@ func mysqlStatementTypeCheck(statement string, charset string, collation string,
 
 	p := tidbp.New()
 	// To support MySQL8 window function syntax.
-	// See https://github.com/bytebase/bytebase/issues/175.
+	// See https://github.com/ashutoshojha5/bytebase/issues/175.
 	p.EnableWindowFunc(true)
 
 	stmts, _, err := p.Parse(supportStmt, charset, collation)

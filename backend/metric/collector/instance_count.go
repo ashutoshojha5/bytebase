@@ -4,9 +4,9 @@ import (
 	"context"
 	"log/slog"
 
-	metricapi "github.com/bytebase/bytebase/backend/metric"
-	"github.com/bytebase/bytebase/backend/plugin/metric"
-	"github.com/bytebase/bytebase/backend/store"
+	metricapi "github.com/ashutoshojha5/bytebase/backend/metric"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/metric"
+	"github.com/ashutoshojha5/bytebase/backend/store"
 )
 
 var _ metric.Collector = (*instanceCountCollector)(nil)

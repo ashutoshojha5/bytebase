@@ -3,7 +3,7 @@ package fake
 import (
 	"net"
 
-	"github.com/bytebase/bytebase/backend/plugin/vcs"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs"
 )
 
 // VCSProvider is a fake implementation of a VCS provider.

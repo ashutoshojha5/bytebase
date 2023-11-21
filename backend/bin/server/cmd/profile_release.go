@@ -5,8 +5,8 @@ package cmd
 import (
 	"time"
 
-	"github.com/bytebase/bytebase/backend/common"
-	"github.com/bytebase/bytebase/backend/component/config"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/component/config"
 )
 
 func activeProfile(dataDir string) config.Profile {

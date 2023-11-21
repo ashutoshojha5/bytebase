@@ -3,8 +3,8 @@
 package cmd
 
 import (
-	"github.com/bytebase/bytebase/backend/common"
-	server "github.com/bytebase/bytebase/backend/sql-server"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	server "github.com/ashutoshojha5/bytebase/backend/sql-server"
 )
 
 func activeProfile() server.Profile {

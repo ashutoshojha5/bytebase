@@ -1,6 +1,6 @@
 # SQL Review Source Code Tour
 
-This is best viewed on [Sourcegraph](https://sourcegraph.com/github.com/bytebase/bytebase/-/blob/docs/design/sql-review-source-code-tour.snb.md).
+This is best viewed on [Sourcegraph](https://sourcegraph.com/github.com/ashutoshojha5/bytebase/-/blob/docs/design/sql-review-source-code-tour.snb.md).
 
 ## Introduction
 
@@ -16,11 +16,11 @@ The inputs for SQL review are SQL review policy, SQL statement, and catalog (sch
 
 The SQL review policy contains policy name and a set of SQL review rules.
 
-https://sourcegraph.com/github.com/bytebase/bytebase@72e8995/-/blob/plugin/advisor/sql_review.go?L124-128
+https://sourcegraph.com/github.com/ashutoshojha5/bytebase@72e8995/-/blob/plugin/advisor/sql_review.go?L124-128
 
 The SQL review rule contains Type, Level, and rule-specific Payload.
 
-https://sourcegraph.com/github.com/bytebase/bytebase@72e8995/-/blob/plugin/advisor/sql_review.go?L143-150
+https://sourcegraph.com/github.com/ashutoshojha5/bytebase@72e8995/-/blob/plugin/advisor/sql_review.go?L143-150
 
 The Type specifies the rule. The Level defines the error level for this rule, Error, Warning or Disabled.
 
@@ -30,15 +30,15 @@ We implement each rule as a SQL advisor in Bytebase. The SQL advisor is SQL dial
 
 The SQL advisor is implemented as a plugin in the Bytebase backend. A particular advisor needs to implement a Check function.
 
-https://sourcegraph.com/github.com/bytebase/bytebase@72e8995/-/blob/plugin/advisor/advisor.go?L201-204
+https://sourcegraph.com/github.com/ashutoshojha5/bytebase@72e8995/-/blob/plugin/advisor/advisor.go?L201-204
 
 Because of the plugin architecture, each SQL advisor needs to call Register to register its advisor type.
 
-https://sourcegraph.com/github.com/bytebase/bytebase@72e8995/-/blob/plugin/advisor/advisor.go?L211-231
+https://sourcegraph.com/github.com/ashutoshojha5/bytebase@72e8995/-/blob/plugin/advisor/advisor.go?L211-231
 
 Also, we define a SQL advisor mapping with tuple <SQL review type, SQL dialect>.
 
-https://sourcegraph.com/github.com/bytebase/bytebase@72e8995/-/blob/plugin/advisor/sql_review.go?L323-331
+https://sourcegraph.com/github.com/ashutoshojha5/bytebase@72e8995/-/blob/plugin/advisor/sql_review.go?L323-331
 
 We have implemented some MySQL dialects (MySQL and TiDB) and PostgreSQL advisors. Below, we present the implementation of the MySQL table naming convention advisor. 
 
@@ -48,11 +48,11 @@ This advisor checks the table naming convention. Let’s implement the Check fun
 
 First, we should parse the SQL statement.
 
-https://sourcegraph.com/github.com/bytebase/bytebase@72e8995/-/blob/plugin/advisor/mysql/advisor_naming_table.go?L27-32
+https://sourcegraph.com/github.com/ashutoshojha5/bytebase@72e8995/-/blob/plugin/advisor/mysql/advisor_naming_table.go?L27-32
 
 Then, we need to get the error level and payload.
 
-https://sourcegraph.com/github.com/bytebase/bytebase@72e8995/-/blob/plugin/advisor/mysql/advisor_naming_table.go?L34-41
+https://sourcegraph.com/github.com/ashutoshojha5/bytebase@72e8995/-/blob/plugin/advisor/mysql/advisor_naming_table.go?L34-41
 
 The TableNamingConvention needs the naming format and maximum length which stores in the rule payload.
 
@@ -62,11 +62,11 @@ So we need to cover CREATE TABLE, ALTER TABLE RENAME, and RENAME TABLE statement
 
 We use TiDB parser as the MySQL dialect parser. And we implement the ast.Visitor interface to visit the TiDB parser AST.
 
-https://sourcegraph.com/github.com/bytebase/bytebase@72e8995/-/blob/plugin/advisor/mysql/advisor_naming_table.go?L71-92
+https://sourcegraph.com/github.com/ashutoshojha5/bytebase@72e8995/-/blob/plugin/advisor/mysql/advisor_naming_table.go?L71-92
 
 The advisor checks all new table names based on the rule.
 
-https://sourcegraph.com/github.com/bytebase/bytebase@72e8995/-/blob/plugin/advisor/mysql/advisor_naming_table.go?L94-113
+https://sourcegraph.com/github.com/ashutoshojha5/bytebase@72e8995/-/blob/plugin/advisor/mysql/advisor_naming_table.go?L94-113
 
 
 ## The Catalog
@@ -78,9 +78,9 @@ The catalog is the schema information for a database. For some rules, we need so
 
 Since all SQL advisors have a nearly identical skeleton, we have implemented a code generator located at `/plugin/advisor/generator`. The generator only supports MySQL dialect for now with PostgreSQL support coming later.
 
-https://sourcegraph.com/github.com/bytebase/bytebase@12faead/-/blob/backend/plugin/advisor/generator/README.md
+https://sourcegraph.com/github.com/ashutoshojha5/bytebase@12faead/-/blob/backend/plugin/advisor/generator/README.md
 
 ## Further Readings
 
-- [Source Code Tour](https://sourcegraph.com/github.com/bytebase/bytebase/-/blob/docs/design/source-code-tour.snb.md)
+- [Source Code Tour](https://sourcegraph.com/github.com/ashutoshojha5/bytebase/-/blob/docs/design/source-code-tour.snb.md)
 - [SQL Advisor User Doc](https://bytebase.com/docs/sql-review/sql-advisor/overview)

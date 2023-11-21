@@ -3,9 +3,9 @@ package cmd
 import (
 	"time"
 
-	"github.com/bytebase/bytebase/backend/common"
-	"github.com/bytebase/bytebase/backend/component/config"
-	api "github.com/bytebase/bytebase/backend/legacyapi"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/component/config"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
 )
 
 func getBaseProfile(dataDir string) config.Profile {

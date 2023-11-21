@@ -13,7 +13,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/common/log"
+	"github.com/ashutoshojha5/bytebase/backend/common/log"
 )
 
 // TokenRefresher is a function to refresh the OAuth token and assign back to

@@ -4,7 +4,7 @@ import (
 	_ "embed"
 	"fmt"
 
-	"github.com/bytebase/bytebase/backend/plugin/vcs"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs"
 )
 
 // sqlReviewAction is the GitHub action for SQL review in VCS workflow.

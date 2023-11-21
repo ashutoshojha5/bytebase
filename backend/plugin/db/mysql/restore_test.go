@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	api "github.com/bytebase/bytebase/backend/legacyapi"
-	"github.com/bytebase/bytebase/backend/plugin/db/util"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db/util"
 )
 
 func TestGetSafeName(t *testing.T) {

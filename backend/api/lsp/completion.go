@@ -9,10 +9,10 @@ import (
 	"github.com/sourcegraph/go-lsp"
 	"github.com/sourcegraph/jsonrpc2"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/base"
-	"github.com/bytebase/bytebase/backend/store"
-	"github.com/bytebase/bytebase/backend/store/model"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/base"
+	"github.com/ashutoshojha5/bytebase/backend/store"
+	"github.com/ashutoshojha5/bytebase/backend/store/model"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 func newEmptyCompletionList() *lsp.CompletionList {

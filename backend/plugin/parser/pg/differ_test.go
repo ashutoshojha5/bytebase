@@ -10,7 +10,7 @@ import (
 	"gopkg.in/yaml.v3"
 
 	// Register PostgreSQL parser engine.
-	_ "github.com/bytebase/bytebase/backend/plugin/parser/sql/engine/pg"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/engine/pg"
 )
 
 type DifferTestData struct {

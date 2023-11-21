@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 // DBSchema is the database schema including the metadata and schema (raw dump).

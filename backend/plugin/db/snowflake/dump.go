@@ -9,7 +9,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/plugin/db/util"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db/util"
 )
 
 // Dump and restore.

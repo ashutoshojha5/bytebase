@@ -10,8 +10,8 @@ import (
 	"gopkg.in/yaml.v3"
 
 	// Import PostgreSQL parser.
-	_ "github.com/bytebase/bytebase/backend/plugin/parser/sql/engine/pg"
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/engine/pg"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 type parseToMetadataTest struct {

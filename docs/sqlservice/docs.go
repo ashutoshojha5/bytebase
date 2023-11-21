@@ -13,12 +13,12 @@ const docTemplate = `{
         "termsOfService": "https://www.bytebase.com/terms",
         "contact": {
             "name": "API Support",
-            "url": "https://github.com/bytebase/bytebase/",
+            "url": "https://github.com/ashutoshojha5/bytebase/",
             "email": "support@bytebase.com"
         },
         "license": {
             "name": "MIT",
-            "url": "https://github.com/bytebase/bytebase/blob/main/LICENSE"
+            "url": "https://github.com/ashutoshojha5/bytebase/blob/main/LICENSE"
         },
         "version": "{{.Version}}"
     },
@@ -75,7 +75,7 @@ const docTemplate = `{
                         }
                     },
                     {
-                        "description": "The SQL check config override string in YAML format. Check https://github.com/bytebase/bytebase/tree/main/plugin/advisor/config/sql-review.override.yaml for example. Required if the template is not specified.",
+                        "description": "The SQL check config override string in YAML format. Check https://github.com/ashutoshojha5/bytebase/tree/main/plugin/advisor/config/sql-review.override.yaml for example. Required if the template is not specified.",
                         "name": "override",
                         "in": "body",
                         "schema": {

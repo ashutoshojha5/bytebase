@@ -92,4 +92,4 @@ upgrade bytebase-release bytebase-repo/bytebase
 
 - Contact <support@bytebase.com>
 - [Bytebase Docs](https://bytebase.com/docs)
-- [Bytebase GitHub Issue Page](https://github.com/bytebase/bytebase/issues/new/choose)
+- [Bytebase GitHub Issue Page](https://github.com/ashutoshojha5/bytebase/issues/new/choose)

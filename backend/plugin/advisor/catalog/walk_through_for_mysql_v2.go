@@ -7,7 +7,7 @@ import (
 	"github.com/antlr4-go/antlr/v4"
 	mysql "github.com/bytebase/mysql-parser"
 
-	mysqlparser "github.com/bytebase/bytebase/backend/plugin/parser/mysql"
+	mysqlparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/mysql"
 )
 
 func (d *DatabaseState) mysqlV2WalkThrough(stmt string) error {

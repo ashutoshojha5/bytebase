@@ -11,7 +11,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/xo/dburl"
 
-	"github.com/bytebase/bytebase/backend/plugin/db"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db"
 )
 
 func newMigrateCmd() *cobra.Command {

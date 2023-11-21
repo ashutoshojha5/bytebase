@@ -15,9 +15,9 @@ import (
 
 	exprpb "google.golang.org/genproto/googleapis/api/expr/v1alpha1"
 
-	"github.com/bytebase/bytebase/backend/plugin/db"
-	"github.com/bytebase/bytebase/backend/store/model"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db"
+	"github.com/ashutoshojha5/bytebase/backend/store/model"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 // InstanceChangeHistoryMessage records the change history of an instance.

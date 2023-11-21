@@ -8,13 +8,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/bytebase/bytebase/backend/resources/mongoutil"
-	resourcemysql "github.com/bytebase/bytebase/backend/resources/mysql"
-	"github.com/bytebase/bytebase/backend/resources/mysqlutil"
+	"github.com/ashutoshojha5/bytebase/backend/resources/mongoutil"
+	resourcemysql "github.com/ashutoshojha5/bytebase/backend/resources/mysql"
+	"github.com/ashutoshojha5/bytebase/backend/resources/mysqlutil"
 
-	"github.com/bytebase/bytebase/backend/resources/postgres"
-	"github.com/bytebase/bytebase/backend/tests/fake"
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	"github.com/ashutoshojha5/bytebase/backend/resources/postgres"
+	"github.com/ashutoshojha5/bytebase/backend/tests/fake"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 func startStopServer(ctx context.Context, a *require.Assertions, ctl *controller, dataDir string) {

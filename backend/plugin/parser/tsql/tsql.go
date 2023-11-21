@@ -9,7 +9,7 @@ import (
 
 	parser "github.com/bytebase/tsql-parser"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/base"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/base"
 )
 
 type ParseResult struct {

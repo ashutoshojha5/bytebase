@@ -12,7 +12,7 @@ import (
 	"google.golang.org/protobuf/testing/protocmp"
 	"gopkg.in/yaml.v3"
 
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 type deparseTest struct {

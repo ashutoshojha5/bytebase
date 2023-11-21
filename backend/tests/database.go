@@ -9,8 +9,8 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/types/known/durationpb"
 
-	api "github.com/bytebase/bytebase/backend/legacyapi"
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 func (ctl *controller) createDatabaseV2(ctx context.Context, project *v1pb.Project, instance *v1pb.Instance, environment *v1pb.Environment, databaseName string, owner string, labels map[string]string) error {

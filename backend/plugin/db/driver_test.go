@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/bytebase/bytebase/backend/store/model"
+	"github.com/ashutoshojha5/bytebase/backend/store/model"
 )
 
 func TestParseMigrationInfo(t *testing.T) {

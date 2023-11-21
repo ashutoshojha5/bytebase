@@ -60,6 +60,6 @@ type BackupPayload struct {
 	// MySQL related fields
 	// BinlogInfo is recorded when taking the backup.
 	// It is recorded within the same transaction as the dump so that the binlog position is consistent with the dump.
-	// Please refer to https://github.com/bytebase/bytebase/blob/main/docs/design/pitr-mysql.md#full-backup for details.
+	// Please refer to https://github.com/ashutoshojha5/bytebase/blob/main/docs/design/pitr-mysql.md#full-backup for details.
 	BinlogInfo BinlogInfo `json:"binlogInfo"`
 }

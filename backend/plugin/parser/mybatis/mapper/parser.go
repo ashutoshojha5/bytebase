@@ -8,7 +8,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/mybatis/mapper/ast"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/mybatis/mapper/ast"
 )
 
 // Parser is the mybatis mapper xml parser.

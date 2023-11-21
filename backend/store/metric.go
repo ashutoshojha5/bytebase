@@ -3,7 +3,7 @@ package store
 import (
 	"context"
 
-	api "github.com/bytebase/bytebase/backend/legacyapi"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
 )
 
 // CountUsers counts the principal.

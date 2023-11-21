@@ -13,12 +13,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/common"
-	"github.com/bytebase/bytebase/backend/plugin/db"
-	"github.com/bytebase/bytebase/backend/plugin/db/util"
-	"github.com/bytebase/bytebase/backend/plugin/parser/sql/ast"
-	pgrawparser "github.com/bytebase/bytebase/backend/plugin/parser/sql/engine/pg"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db/util"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/ast"
+	pgrawparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/engine/pg"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 // SyncInstance syncs the instance.
@@ -622,7 +622,7 @@ func getViews(txn *sql.Tx) (map[string][]*storepb.ViewMetadata, error) {
 			return nil, err
 		}
 		// Return error on NULL view definition.
-		// https://github.com/bytebase/bytebase/issues/343
+		// https://github.com/ashutoshojha5/bytebase/issues/343
 		if !def.Valid {
 			return nil, errors.Errorf("schema %q view %q has empty definition; please check whether proper privileges have been granted to Bytebase", schemaName, view.Name)
 		}

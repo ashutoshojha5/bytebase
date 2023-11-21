@@ -12,11 +12,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/common"
-	"github.com/bytebase/bytebase/backend/store"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/store"
 
-	dbdriver "github.com/bytebase/bytebase/backend/plugin/db"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	dbdriver "github.com/ashutoshojha5/bytebase/backend/plugin/db"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 //go:embed data

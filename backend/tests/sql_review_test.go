@@ -24,11 +24,11 @@ import (
 	"google.golang.org/protobuf/types/known/fieldmaskpb"
 	"gopkg.in/yaml.v3"
 
-	api "github.com/bytebase/bytebase/backend/legacyapi"
-	"github.com/bytebase/bytebase/backend/resources/mysql"
-	"github.com/bytebase/bytebase/backend/resources/postgres"
-	"github.com/bytebase/bytebase/backend/tests/fake"
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
+	"github.com/ashutoshojha5/bytebase/backend/resources/mysql"
+	"github.com/ashutoshojha5/bytebase/backend/resources/postgres"
+	"github.com/ashutoshojha5/bytebase/backend/tests/fake"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 var (

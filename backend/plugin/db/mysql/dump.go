@@ -15,12 +15,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/common"
-	"github.com/bytebase/bytebase/backend/common/log"
-	api "github.com/bytebase/bytebase/backend/legacyapi"
-	"github.com/bytebase/bytebase/backend/plugin/db/util"
-	"github.com/bytebase/bytebase/backend/resources/mysqlutil"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/common/log"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db/util"
+	"github.com/ashutoshojha5/bytebase/backend/resources/mysqlutil"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 // Dump and restore.
@@ -103,7 +103,7 @@ func (driver *Driver) Dump(ctx context.Context, out io.Writer, schemaOnly bool) 
 
 	var payloadBytes []byte
 	// Before we dump the real data, we should record the binlog position for PITR.
-	// Please refer to https://github.com/bytebase/bytebase/blob/main/docs/design/pitr-mysql.md#full-backup for details.
+	// Please refer to https://github.com/ashutoshojha5/bytebase/blob/main/docs/design/pitr-mysql.md#full-backup for details.
 	if !schemaOnly {
 		slog.Debug("flush tables in database with read locks",
 			slog.String("database", driver.databaseName))
@@ -315,7 +315,7 @@ func getTemporaryView(name string, columns []string) string {
 
 // excludeSchemaAutoValues excludes
 // 1) the starting value of AUTO_INCREMENT if it's a schema only dump.
-// https://github.com/bytebase/bytebase/issues/123
+// https://github.com/ashutoshojha5/bytebase/issues/123
 // 2) The auto random base in TiDB.
 // /*T![auto_rand_base] AUTO_RANDOM_BASE=39456621 */.
 func excludeSchemaAutoValues(s string) string {

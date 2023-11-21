@@ -7,15 +7,15 @@ import (
 	"github.com/pkg/errors"
 	"github.com/xo/dburl"
 
-	"github.com/bytebase/bytebase/backend/plugin/db"
-	"github.com/bytebase/bytebase/backend/resources/mysqlutil"
-	"github.com/bytebase/bytebase/backend/resources/postgres"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db"
+	"github.com/ashutoshojha5/bytebase/backend/resources/mysqlutil"
+	"github.com/ashutoshojha5/bytebase/backend/resources/postgres"
 
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 	// install mysql driver.
-	_ "github.com/bytebase/bytebase/backend/plugin/db/mysql"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/db/mysql"
 	// register pg driver.
-	_ "github.com/bytebase/bytebase/backend/plugin/db/pg"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/db/pg"
 	// install pg driver.
 )
 

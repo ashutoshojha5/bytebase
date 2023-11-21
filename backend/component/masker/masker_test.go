@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 func TestMiddle_Byte(t *testing.T) {

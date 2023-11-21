@@ -3,8 +3,8 @@
 package service
 
 import (
-	"github.com/bytebase/bytebase/backend/enterprise/plugin"
-	"github.com/bytebase/bytebase/backend/enterprise/plugin/aws"
+	"github.com/ashutoshojha5/bytebase/backend/enterprise/plugin"
+	"github.com/ashutoshojha5/bytebase/backend/enterprise/plugin/aws"
 )
 
 func getLicenseProvider(providerConfig *plugin.ProviderConfig) (plugin.LicenseProvider, error) {

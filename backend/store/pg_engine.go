@@ -7,12 +7,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	dbdriver "github.com/bytebase/bytebase/backend/plugin/db"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	dbdriver "github.com/ashutoshojha5/bytebase/backend/plugin/db"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 
 	// Register postgres driver.
 
-	"github.com/bytebase/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/common"
 )
 
 // DB represents the metdata database connection.

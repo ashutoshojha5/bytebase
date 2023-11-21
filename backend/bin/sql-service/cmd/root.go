@@ -12,28 +12,28 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/bytebase/bytebase/backend/common"
-	"github.com/bytebase/bytebase/backend/common/log"
-	server "github.com/bytebase/bytebase/backend/sql-server"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/common/log"
+	server "github.com/ashutoshojha5/bytebase/backend/sql-server"
 
 	// Register pingcap parser driver.
 	_ "github.com/pingcap/tidb/types/parser_driver"
 	// Register tidb advisor.
-	_ "github.com/bytebase/bytebase/backend/plugin/advisor/tidb"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/advisor/tidb"
 	// Register mysql advisor.
-	_ "github.com/bytebase/bytebase/backend/plugin/advisor/mysql"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/advisor/mysql"
 
 	// Register postgresql advisor.
-	_ "github.com/bytebase/bytebase/backend/plugin/advisor/pg"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/advisor/pg"
 	// Register oracle advisor.
-	_ "github.com/bytebase/bytebase/backend/plugin/advisor/oracle"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/advisor/oracle"
 	// Register snowflake advisor.
-	_ "github.com/bytebase/bytebase/backend/plugin/advisor/snowflake"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/advisor/snowflake"
 	// Register mssql advisor.
-	_ "github.com/bytebase/bytebase/backend/plugin/advisor/mssql"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/advisor/mssql"
 
 	// Register postgres parser driver.
-	_ "github.com/bytebase/bytebase/backend/plugin/parser/sql/engine/pg"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/engine/pg"
 )
 
 // -----------------------------------Global constant BEGIN----------------------------------------.

@@ -10,15 +10,15 @@ import (
 
 	echoswagger "github.com/swaggo/echo-swagger"
 
-	"github.com/bytebase/bytebase/backend/plugin/metric/segment"
-	_ "github.com/bytebase/bytebase/docs/sqlservice" // initial the swagger doc
+	"github.com/ashutoshojha5/bytebase/backend/plugin/metric/segment"
+	_ "github.com/ashutoshojha5/bytebase/docs/sqlservice" // initial the swagger doc
 
 	"github.com/labstack/echo-contrib/pprof"
 	"github.com/labstack/echo-contrib/prometheus"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 
-	"github.com/bytebase/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/common"
 )
 
 // Server is the Bytebase server.
@@ -38,11 +38,11 @@ type Server struct {
 // @termsOfService https://www.bytebase.com/terms
 
 // @contact.name API Support
-// @contact.url https://github.com/bytebase/bytebase/
+// @contact.url https://github.com/ashutoshojha5/bytebase/
 // @contact.email support@bytebase.com
 
 // @license.name MIT
-// @license.url https://github.com/bytebase/bytebase/blob/main/LICENSE
+// @license.url https://github.com/ashutoshojha5/bytebase/blob/main/LICENSE
 
 // @host localhost:8081
 // @BasePath /v1/

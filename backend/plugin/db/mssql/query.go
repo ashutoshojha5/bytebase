@@ -9,7 +9,7 @@ import (
 
 	tsql "github.com/bytebase/tsql-parser"
 
-	tsqlparser "github.com/bytebase/bytebase/backend/plugin/parser/tsql"
+	tsqlparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/tsql"
 )
 
 // singleStatement must be a selectStatement for mssql.

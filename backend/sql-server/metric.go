@@ -7,9 +7,9 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"github.com/bytebase/bytebase/backend/common/log"
-	metricapi "github.com/bytebase/bytebase/backend/metric"
-	"github.com/bytebase/bytebase/backend/plugin/metric"
+	"github.com/ashutoshojha5/bytebase/backend/common/log"
+	metricapi "github.com/ashutoshojha5/bytebase/backend/metric"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/metric"
 )
 
 type metricReporter struct {

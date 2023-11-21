@@ -16,7 +16,7 @@ import (
 	"github.com/tmc/grpc-websocket-proxy/wsproxy"
 	"google.golang.org/grpc"
 
-	"github.com/bytebase/bytebase/backend/common/log"
+	"github.com/ashutoshojha5/bytebase/backend/common/log"
 )
 
 func configureEchoRouters(e *echo.Echo, grpcServer *grpc.Server, mux *grpcruntime.ServeMux) {

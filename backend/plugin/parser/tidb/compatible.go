@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	mysqlparser "github.com/bytebase/bytebase/backend/plugin/parser/mysql"
+	mysqlparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/mysql"
 )
 
 // ExtractTiDBUnsupportedStmts returns a list of unsupported statements in TiDB extracted from the `stmts`,

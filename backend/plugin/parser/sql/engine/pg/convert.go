@@ -8,10 +8,10 @@ import (
 	pgquery "github.com/pganalyze/pg_query_go/v4"
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/base"
-	"github.com/bytebase/bytebase/backend/plugin/parser/tokenizer"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/base"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/tokenizer"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/sql/ast"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/ast"
 )
 
 // convert converts the pg_query.Node to ast.Node.

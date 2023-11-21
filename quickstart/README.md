@@ -9,7 +9,7 @@ Prerequisite:
 ## MySQL
 
 1.  ```
-    git clone https://github.com/bytebase/bytebase.git && \
+    git clone https://github.com/ashutoshojha5/bytebase.git && \
     cd bytebase/quickstart
     ```
 
@@ -33,7 +33,7 @@ Prerequisite:
 ## Clickhouse
 
 1.  ```
-    git clone https://github.com/bytebase/bytebase.git && \
+    git clone https://github.com/ashutoshojha5/bytebase.git && \
     cd bytebase/quickstart
     ```
 
@@ -55,7 +55,7 @@ Prerequisite:
 ## Clickhouse Cluster
 
 1.  ```
-    git clone https://github.com/bytebase/bytebase.git && \
+    git clone https://github.com/ashutoshojha5/bytebase.git && \
     cd bytebase/quickstart
     ```
 
@@ -85,7 +85,7 @@ Prerequisite:
 ## GitLab (macOS Apple Silicon)
 
 1.  ```
-    git clone https://github.com/bytebase/bytebase.git && \
+    git clone https://github.com/ashutoshojha5/bytebase.git && \
     cd bytebase/quickstart
     ```
 

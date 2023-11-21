@@ -1,4 +1,4 @@
-module github.com/bytebase/bytebase
+module github.com/ashutoshojha5/bytebase
 
 go 1.21.3
 

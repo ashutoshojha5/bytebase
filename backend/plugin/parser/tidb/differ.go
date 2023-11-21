@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bytebase/bytebase/backend/common/log"
+	"github.com/ashutoshojha5/bytebase/backend/common/log"
 
 	"github.com/pingcap/tidb/parser"
 	"github.com/pingcap/tidb/parser/ast"
@@ -19,8 +19,8 @@ import (
 	"github.com/pingcap/tidb/types"
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/base"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/base"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 
 	// Register pingcap parser driver.
 	driver "github.com/pingcap/tidb/types/parser_driver"

@@ -10,7 +10,7 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 
-	"github.com/bytebase/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/common"
 )
 
 //go:embed dist/assets/*

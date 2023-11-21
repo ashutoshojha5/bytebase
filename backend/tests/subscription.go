@@ -5,7 +5,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 func (ctl *controller) setLicense(ctx context.Context) error {

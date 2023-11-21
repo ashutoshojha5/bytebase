@@ -22,17 +22,17 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	api "github.com/bytebase/bytebase/backend/legacyapi"
-	"github.com/bytebase/bytebase/backend/plugin/advisor"
-	"github.com/bytebase/bytebase/backend/plugin/vcs"
-	"github.com/bytebase/bytebase/backend/plugin/vcs/bitbucket"
-	"github.com/bytebase/bytebase/backend/plugin/vcs/github"
-	"github.com/bytebase/bytebase/backend/plugin/vcs/gitlab"
-	"github.com/bytebase/bytebase/backend/resources/mysql"
-	"github.com/bytebase/bytebase/backend/resources/postgres"
-	"github.com/bytebase/bytebase/backend/tests/fake"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/advisor"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs/bitbucket"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs/github"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs/gitlab"
+	"github.com/ashutoshojha5/bytebase/backend/resources/mysql"
+	"github.com/ashutoshojha5/bytebase/backend/resources/postgres"
+	"github.com/ashutoshojha5/bytebase/backend/tests/fake"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 var (

@@ -9,8 +9,8 @@ import (
 	lru "github.com/hashicorp/golang-lru/v2"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	api "github.com/bytebase/bytebase/backend/legacyapi"
-	"github.com/bytebase/bytebase/backend/store/model"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
+	"github.com/ashutoshojha5/bytebase/backend/store/model"
 )
 
 var (

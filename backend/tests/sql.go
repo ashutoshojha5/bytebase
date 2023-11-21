@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/bytebase/bytebase/backend/plugin/advisor"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/advisor"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 func (ctl *controller) adminQuery(ctx context.Context, instance *v1pb.Instance, databaseName, query string) ([]*v1pb.QueryResult, error) {

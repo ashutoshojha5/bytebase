@@ -1,6 +1,6 @@
 package segment
 
-import "github.com/bytebase/bytebase/backend/plugin/metric"
+import "github.com/ashutoshojha5/bytebase/backend/plugin/metric"
 
 // mockreporter is the metrics collector https://segment.com/.
 type mockreporter struct {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	api "github.com/bytebase/bytebase/backend/legacyapi"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
 )
 
 func TestGetIAMPolicyDiff(t *testing.T) {

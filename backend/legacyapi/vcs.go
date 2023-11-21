@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/bytebase/bytebase/backend/plugin/advisor"
-	"github.com/bytebase/bytebase/backend/plugin/vcs"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/advisor"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs"
 )
 
 // VCSExchangeToken is the API message of exchanging token for a VCS.

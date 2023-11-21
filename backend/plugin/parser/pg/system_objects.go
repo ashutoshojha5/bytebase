@@ -11,7 +11,7 @@ var (
 		// Skip our internal "bytebase" database
 		"bytebase": true,
 		// Skip internal databases from cloud service providers
-		// see https://github.com/bytebase/bytebase/issues/30
+		// see https://github.com/ashutoshojha5/bytebase/issues/30
 		// aws
 		"rdsadmin": true,
 		// gcp

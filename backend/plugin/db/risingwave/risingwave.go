@@ -20,14 +20,14 @@ import (
 	"golang.org/x/crypto/ssh"
 	"google.golang.org/protobuf/types/known/durationpb"
 
-	"github.com/bytebase/bytebase/backend/common"
-	"github.com/bytebase/bytebase/backend/common/log"
-	"github.com/bytebase/bytebase/backend/plugin/db"
-	"github.com/bytebase/bytebase/backend/plugin/db/util"
-	"github.com/bytebase/bytebase/backend/plugin/parser/base"
-	pgparser "github.com/bytebase/bytebase/backend/plugin/parser/pg"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/common/log"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db/util"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/base"
+	pgparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/pg"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 var (
@@ -275,7 +275,7 @@ func (driver *Driver) Execute(ctx context.Context, statement string, createDatab
 	f := func(stmt string) error {
 		// We don't use transaction for creating / altering databases in Postgres.
 		// We will execute the statement directly before "\\connect" statement.
-		// https://github.com/bytebase/bytebase/issues/202
+		// https://github.com/ashutoshojha5/bytebase/issues/202
 		if isSuperuserStatement(stmt) {
 			remainingStmts = append(remainingStmts, stmt)
 		} else if isNonTransactionStatement(stmt) {

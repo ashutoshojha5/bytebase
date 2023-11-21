@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	api "github.com/bytebase/bytebase/backend/legacyapi"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
 )
 
 // RoleMessage is the message for roles.

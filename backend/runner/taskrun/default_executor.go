@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log/slog"
 
-	api "github.com/bytebase/bytebase/backend/legacyapi"
-	"github.com/bytebase/bytebase/backend/store"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
+	"github.com/ashutoshojha5/bytebase/backend/store"
 )
 
 // NewDefaultExecutor creates a default task executor.

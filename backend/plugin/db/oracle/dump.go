@@ -1159,7 +1159,7 @@ type indexMeta struct {
 type sequenceMeta struct {
 	SequenceName sql.NullString
 	MinValue     sql.NullInt64
-	// https://github.com/bytebase/bytebase/issues/8192.
+	// https://github.com/ashutoshojha5/bytebase/issues/8192.
 	MaxValue    sql.NullString
 	IncrementBy sql.NullInt64
 	CycleFlag   sql.NullString

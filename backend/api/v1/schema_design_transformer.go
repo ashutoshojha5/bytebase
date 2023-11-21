@@ -12,10 +12,10 @@ import (
 
 	mysql "github.com/bytebase/mysql-parser"
 
-	mysqlparser "github.com/bytebase/bytebase/backend/plugin/parser/mysql"
-	pgrawparser "github.com/bytebase/bytebase/backend/plugin/parser/sql/engine/pg"
-	pgse "github.com/bytebase/bytebase/backend/plugin/schema-engine/pg"
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	mysqlparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/mysql"
+	pgrawparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/engine/pg"
+	pgse "github.com/ashutoshojha5/bytebase/backend/plugin/schema-engine/pg"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 func transformDatabaseMetadataToSchemaString(engine v1pb.Engine, database *v1pb.DatabaseMetadata) (string, error) {

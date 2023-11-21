@@ -3,7 +3,7 @@ package api
 import (
 	"encoding/json"
 
-	"github.com/bytebase/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/common"
 )
 
 // DeploymentConfig is the API message for deployment configurations.

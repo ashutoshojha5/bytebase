@@ -14,9 +14,9 @@ import (
 	"github.com/pingcap/tidb/sessionctx/stmtctx"
 	"github.com/pingcap/tidb/types"
 
-	mysqlbbparser "github.com/bytebase/bytebase/backend/plugin/parser/mysql"
-	tidbbbparser "github.com/bytebase/bytebase/backend/plugin/parser/tidb"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	mysqlbbparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/mysql"
+	tidbbbparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/tidb"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 // WalkThroughErrorType is the type of WalkThroughError.
@@ -1353,7 +1353,7 @@ func (d *DatabaseState) createSchema(name string) *SchemaState {
 func (*DatabaseState) parse(statement string) ([]tidbast.StmtNode, *WalkThroughError) {
 	p := tidbparser.New()
 	// To support MySQL8 window function syntax.
-	// See https://github.com/bytebase/bytebase/issues/175.
+	// See https://github.com/ashutoshojha5/bytebase/issues/175.
 	p.EnableWindowFunc(true)
 
 	treeList, err := mysqlbbparser.ParseMySQL(statement)

@@ -8,11 +8,11 @@ import (
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/common"
-	enterprise "github.com/bytebase/bytebase/backend/enterprise/api"
-	"github.com/bytebase/bytebase/backend/enterprise/plugin"
-	api "github.com/bytebase/bytebase/backend/legacyapi"
-	"github.com/bytebase/bytebase/backend/store"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	enterprise "github.com/ashutoshojha5/bytebase/backend/enterprise/api"
+	"github.com/ashutoshojha5/bytebase/backend/enterprise/plugin"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
+	"github.com/ashutoshojha5/bytebase/backend/store"
 )
 
 var _ enterprise.LicenseService = (*LicenseService)(nil)

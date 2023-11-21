@@ -7,8 +7,8 @@ import (
 	mysql "github.com/bytebase/mysql-parser"
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/base"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/base"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 func init() {

@@ -13,10 +13,10 @@ import (
 
 	mysql "github.com/bytebase/mysql-parser"
 
-	"github.com/bytebase/bytebase/backend/common/log"
-	mysqlparser "github.com/bytebase/bytebase/backend/plugin/parser/mysql"
-	tidbparser "github.com/bytebase/bytebase/backend/plugin/parser/tidb"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/common/log"
+	mysqlparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/mysql"
+	tidbparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/tidb"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 func (driver *Driver) getStatementWithResultLimit(stmt string, limit int) string {

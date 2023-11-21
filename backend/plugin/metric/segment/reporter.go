@@ -5,8 +5,8 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/bytebase/bytebase/backend/common/log"
-	"github.com/bytebase/bytebase/backend/plugin/metric"
+	"github.com/ashutoshojha5/bytebase/backend/common/log"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/metric"
 
 	"github.com/segmentio/analytics-go"
 )

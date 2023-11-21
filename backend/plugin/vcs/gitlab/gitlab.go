@@ -15,9 +15,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/common"
-	"github.com/bytebase/bytebase/backend/plugin/vcs"
-	"github.com/bytebase/bytebase/backend/plugin/vcs/internal/oauth"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs/internal/oauth"
 )
 
 const (
@@ -309,7 +309,7 @@ func (p *Provider) fetchPaginatedRepositoryList(ctx context.Context, oauthCtx *c
 
 	// NOTE: We deliberately choose to not use the Link header for checking the next
 	// page to avoid introducing a new dependency, see
-	// https://github.com/bytebase/bytebase/pull/1423#discussion_r884278534 for the
+	// https://github.com/ashutoshojha5/bytebase/pull/1423#discussion_r884278534 for the
 	// discussion.
 	return repos, len(repos) >= apiPageSize, nil
 }
@@ -487,7 +487,7 @@ func (p *Provider) fetchPaginatedRepositoryFileList(ctx context.Context, oauthCt
 
 	// NOTE: We deliberately choose to not use the Link header for checking the next
 	// page to avoid introducing a new dependency, see
-	// https://github.com/bytebase/bytebase/pull/1423#discussion_r884278534 for the
+	// https://github.com/ashutoshojha5/bytebase/pull/1423#discussion_r884278534 for the
 	// discussion.
 	return treeNodes, len(treeNodes) >= apiPageSize, nil
 }
@@ -1048,7 +1048,7 @@ func (p *Provider) CreateWebhook(ctx context.Context, oauthCtx *common.OauthCont
 			code,
 			body,
 		)
-		// Add helper tips if the status code is 422, refer to https://github.com/bytebase/bytebase/issues/101 for more context.
+		// Add helper tips if the status code is 422, refer to https://github.com/ashutoshojha5/bytebase/issues/101 for more context.
 		if code == http.StatusUnprocessableEntity {
 			reason += ".\n\nIf GitLab and Bytebase are in the same private network, " +
 				"please follow the instructions in https://docs.gitlab.com/ee/security/webhooks.html"

@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	api "github.com/bytebase/bytebase/backend/legacyapi"
-	metricapi "github.com/bytebase/bytebase/backend/metric"
-	"github.com/bytebase/bytebase/backend/plugin/metric"
-	"github.com/bytebase/bytebase/backend/store"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
+	metricapi "github.com/ashutoshojha5/bytebase/backend/metric"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/metric"
+	"github.com/ashutoshojha5/bytebase/backend/store"
 )
 
 var _ metric.Collector = (*policyCountCollector)(nil)

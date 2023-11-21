@@ -3,14 +3,14 @@ package tidb
 import (
 	"strings"
 
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 
 	"github.com/pkg/errors"
 
 	"github.com/pingcap/tidb/parser"
 	tidbast "github.com/pingcap/tidb/parser/ast"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/base"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/base"
 )
 
 func init() {
@@ -43,7 +43,7 @@ type fieldExtractor struct {
 func (extractor *fieldExtractor) extractSensitiveFields(statement string) ([]base.SensitiveField, error) {
 	p := parser.New()
 	// To support MySQL8 window function syntax.
-	// See https://github.com/bytebase/bytebase/issues/175.
+	// See https://github.com/ashutoshojha5/bytebase/issues/175.
 	p.EnableWindowFunc(true)
 	nodeList, _, err := p.Parse(statement, "", "")
 	if err != nil {

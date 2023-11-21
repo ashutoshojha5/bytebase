@@ -21,10 +21,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/common"
-	"github.com/bytebase/bytebase/backend/common/log"
-	"github.com/bytebase/bytebase/backend/plugin/vcs"
-	"github.com/bytebase/bytebase/backend/plugin/vcs/internal/oauth"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	"github.com/ashutoshojha5/bytebase/backend/common/log"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/vcs/internal/oauth"
 )
 
 const (
@@ -469,7 +469,7 @@ func (p *Provider) fetchPaginatedRepositoryList(ctx context.Context, oauthCtx *c
 
 	// NOTE: We deliberately choose to not use the Link header for checking the next
 	// page to avoid introducing a new dependency, see
-	// https://github.com/bytebase/bytebase/pull/1423#discussion_r884278534 for the
+	// https://github.com/ashutoshojha5/bytebase/pull/1423#discussion_r884278534 for the
 	// discussion.
 	return repos, len(repos) >= apiPageSize, nil
 }

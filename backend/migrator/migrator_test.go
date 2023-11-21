@@ -9,12 +9,12 @@ import (
 	"github.com/blang/semver/v4"
 	"github.com/stretchr/testify/require"
 
-	"github.com/bytebase/bytebase/backend/common"
-	dbdriver "github.com/bytebase/bytebase/backend/plugin/db"
-	_ "github.com/bytebase/bytebase/backend/plugin/db/pg"
-	"github.com/bytebase/bytebase/backend/resources/postgres"
-	"github.com/bytebase/bytebase/backend/store"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	dbdriver "github.com/ashutoshojha5/bytebase/backend/plugin/db"
+	_ "github.com/ashutoshojha5/bytebase/backend/plugin/db/pg"
+	"github.com/ashutoshojha5/bytebase/backend/resources/postgres"
+	"github.com/ashutoshojha5/bytebase/backend/store"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 func TestGetMinorMigrationVersions(t *testing.T) {

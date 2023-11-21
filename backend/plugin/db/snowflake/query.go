@@ -8,7 +8,7 @@ import (
 
 	snowsql "github.com/bytebase/snowsql-parser"
 
-	snowparser "github.com/bytebase/bytebase/backend/plugin/parser/snowflake"
+	snowparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/snowflake"
 )
 
 // singleStatement must be a selectStatement for snowflake.

@@ -8,7 +8,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	api "github.com/bytebase/bytebase/backend/legacyapi"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
 )
 
 // ExternalApprovalMessage is the message for creating an external approval.

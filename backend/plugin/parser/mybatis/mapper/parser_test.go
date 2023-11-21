@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/mybatis/mapper/ast"
-	mysqlparser "github.com/bytebase/bytebase/backend/plugin/parser/mysql"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/mybatis/mapper/ast"
+	mysqlparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/mysql"
 )
 
 // TestData is the test data for mybatis parser. It contains the xml and the expected sql.

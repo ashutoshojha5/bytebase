@@ -21,18 +21,18 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 
 	// Import pg driver.
 	// init() in pgx/v4/stdlib will register it's pgx driver.
 	_ "github.com/jackc/pgx/v4/stdlib"
 
-	"github.com/bytebase/bytebase/backend/common"
-	component "github.com/bytebase/bytebase/backend/component/config"
-	api "github.com/bytebase/bytebase/backend/legacyapi"
-	"github.com/bytebase/bytebase/backend/resources/postgres"
-	"github.com/bytebase/bytebase/backend/server"
-	"github.com/bytebase/bytebase/backend/tests/fake"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	component "github.com/ashutoshojha5/bytebase/backend/component/config"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
+	"github.com/ashutoshojha5/bytebase/backend/resources/postgres"
+	"github.com/ashutoshojha5/bytebase/backend/server"
+	"github.com/ashutoshojha5/bytebase/backend/tests/fake"
 )
 
 var (

@@ -4,7 +4,7 @@ package pg
 import (
 	"fmt"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/sql/ast"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/ast"
 )
 
 const (

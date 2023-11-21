@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/bytebase/bytebase/backend/store/model"
+	"github.com/ashutoshojha5/bytebase/backend/store/model"
 )
 
 type SourceColumnSet map[ColumnResource]bool

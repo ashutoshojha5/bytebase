@@ -9,9 +9,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/plugin/db"
-	"github.com/bytebase/bytebase/backend/plugin/db/util"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db/util"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 const systemSchema = "'CTISYS','SYS','SYSAUDITOR','SYSDBA','SYSSSO'"
@@ -177,7 +177,7 @@ func getTables(txn *sql.Tx, schemaName string) (map[string][]*storepb.TableMetad
 func getTableColumns(txn *sql.Tx, schemaName string) (map[db.TableKey][]*storepb.ColumnMetadata, error) {
 	columnsMap := make(map[db.TableKey][]*storepb.ColumnMetadata)
 
-	// https://github.com/bytebase/bytebase/issues/6663
+	// https://github.com/ashutoshojha5/bytebase/issues/6663
 	// Invisible columns don't have column ID so that we need to filter out them.
 	query := ""
 	if schemaName == "" {

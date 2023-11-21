@@ -17,7 +17,7 @@ const (
 	// IndexMethodTypeBrin is the index method type for BRIN.
 	IndexMethodTypeBrin
 	// IndexMethodTypeIvfflat is the index method type for ivfflat.
-	// https://github.com/bytebase/bytebase/issues/6783.
+	// https://github.com/ashutoshojha5/bytebase/issues/6783.
 	// https://github.com/pgvector/pgvector.
 	IndexMethodTypeIvfflat
 )

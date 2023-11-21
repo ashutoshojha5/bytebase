@@ -1,7 +1,7 @@
 package base
 
 import (
-	"github.com/bytebase/bytebase/backend/component/masker"
+	"github.com/ashutoshojha5/bytebase/backend/component/masker"
 )
 
 // SensitiveSchemaInfo is the schema info using to extract sensitive fields.

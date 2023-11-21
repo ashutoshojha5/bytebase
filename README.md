@@ -21,14 +21,14 @@
 </p>
 
 <p align="center">
-  <a href="https://goreportcard.com/report/github.com/bytebase/bytebase">
-    <img alt="go report" src="https://goreportcard.com/badge/github.com/bytebase/bytebase" />
+  <a href="https://goreportcard.com/report/github.com/ashutoshojha5/bytebase">
+    <img alt="go report" src="https://goreportcard.com/badge/github.com/ashutoshojha5/bytebase" />
   </a>
   <a href="https://artifacthub.io/packages/search?repo=bytebase">
     <img alt="Artifact Hub" src="https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/bytebase" />
   </a>
     <a
-    href="https://github.com/bytebase/bytebase"
+    href="https://github.com/ashutoshojha5/bytebase"
     target="_blank"
   >
     <img alt="Github Stars" src="https://img.shields.io/github/stars/bytebase/bytebase?logo=github">
@@ -191,7 +191,7 @@ Product tutorials are available at https://www.bytebase.com/tutorial.
 | --- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 🪶  | Dependency Free         | Start with a single command `./bytebase` without any external dependency. External PostgreSQL data store and others are optional.                                                                                                                                                                                                                      |
 | 🔗  | Integration First       | Solely focus on database management and leave the rest to others. We have native VCS integration with [GitHub/GitLab](https://www.bytebase.com/docs/vcs-integration/overview), [Terraform Provider](https://registry.terraform.io/providers/bytebase/bytebase/latest/docs), [webhook](https://www.bytebase.com/docs/change-database/webhook), and etc. |
-| 💂‍♀️  | Engineering Disciplined | Disciplined [bi-weekly release](https://www.bytebase.com/changelog) and [engineering practice](https://github.com/bytebase/bytebase/blob/main/docs/life-of-a-feature.md).                                                                                                                                                                              |
+| 💂‍♀️  | Engineering Disciplined | Disciplined [bi-weekly release](https://www.bytebase.com/changelog) and [engineering practice](https://github.com/ashutoshojha5/bytebase/blob/main/docs/life-of-a-feature.md).                                                                                                                                                                              |
 
 <br />
 
@@ -254,10 +254,10 @@ Below diagram describes a typical mapping between an engineering org and the cor
 
 - Interactive code walkthrough
 
-  - [Life of a schema change](https://sourcegraph.com/github.com/bytebase/bytebase/-/blob/docs/design/life-of-a-schema-change.snb.md)
-  - [SQL Review](https://sourcegraph.com/github.com/bytebase/bytebase/-/blob/docs/design/sql-review-source-code-tour.snb.md)
+  - [Life of a schema change](https://sourcegraph.com/github.com/ashutoshojha5/bytebase/-/blob/docs/design/life-of-a-schema-change.snb.md)
+  - [SQL Review](https://sourcegraph.com/github.com/ashutoshojha5/bytebase/-/blob/docs/design/sql-review-source-code-tour.snb.md)
 
-- Follow [Life of a Feature](https://github.com/bytebase/bytebase/blob/main/docs/life-of-a-feature.md).
+- Follow [Life of a Feature](https://github.com/ashutoshojha5/bytebase/blob/main/docs/life-of-a-feature.md).
 
 ## Dev Environment Setup
 
@@ -275,7 +275,7 @@ Below diagram describes a typical mapping between an engineering org and the cor
 1. Pull source.
 
    ```bash
-   git clone https://github.com/bytebase/bytebase
+   git clone https://github.com/ashutoshojha5/bytebase
    ```
 
 1. Create an external Postgres database on localhost.

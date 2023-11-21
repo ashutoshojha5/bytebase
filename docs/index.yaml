@@ -12,7 +12,7 @@ entries:
       name: Bytebase
     name: bytebase
     sources:
-    - https://github.com/bytebase/bytebase
+    - https://github.com/ashutoshojha5/bytebase
     type: application
     urls:
     - bytebase-1.0.6.tgz
@@ -28,7 +28,7 @@ entries:
       name: Bytebase
     name: bytebase
     sources:
-    - https://github.com/bytebase/bytebase
+    - https://github.com/ashutoshojha5/bytebase
     type: application
     urls:
     - bytebase-1.0.5.tgz
@@ -44,7 +44,7 @@ entries:
       name: Bytebase
     name: bytebase
     sources:
-    - https://github.com/bytebase/bytebase
+    - https://github.com/ashutoshojha5/bytebase
     type: application
     urls:
     - bytebase-1.0.4.tgz
@@ -60,7 +60,7 @@ entries:
       name: Bytebase
     name: bytebase
     sources:
-    - https://github.com/bytebase/bytebase
+    - https://github.com/ashutoshojha5/bytebase
     type: application
     urls:
     - bytebase-1.0.3.tgz
@@ -76,7 +76,7 @@ entries:
       name: Bytebase
     name: bytebase
     sources:
-    - https://github.com/bytebase/bytebase
+    - https://github.com/ashutoshojha5/bytebase
     type: application
     urls:
     - bytebase-1.0.2.tgz
@@ -92,7 +92,7 @@ entries:
       name: Bytebase
     name: bytebase
     sources:
-    - https://github.com/bytebase/bytebase
+    - https://github.com/ashutoshojha5/bytebase
     type: application
     urls:
     - bytebase-1.0.1.tgz
@@ -108,7 +108,7 @@ entries:
       name: Bytebase
     name: bytebase
     sources:
-    - https://github.com/bytebase/bytebase
+    - https://github.com/ashutoshojha5/bytebase
     type: application
     urls:
     - bytebase-1.0.0.tgz

@@ -3,9 +3,9 @@ package pg
 import (
 	"io"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/base"
-	"github.com/bytebase/bytebase/backend/plugin/parser/tokenizer"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/base"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/tokenizer"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 func init() {

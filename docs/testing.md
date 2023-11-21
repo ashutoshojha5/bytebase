@@ -6,7 +6,7 @@
 
 Backend testing includes both unit testing and integration testing. Because manual testing is less efficient, all new features or code changes need defense from automated testing. Without it, no one knows when things will break.
 
-All the Go integration tests is at [tests directory](https://github.com/bytebase/bytebase/tree/main/tests).
+All the Go integration tests is at [tests directory](https://github.com/ashutoshojha5/bytebase/tree/main/tests).
 
 ### Prerequisites
 

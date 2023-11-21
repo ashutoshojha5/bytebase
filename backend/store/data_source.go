@@ -8,8 +8,8 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	api "github.com/bytebase/bytebase/backend/legacyapi"
-	storepb "github.com/bytebase/bytebase/proto/generated-go/store"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
+	storepb "github.com/ashutoshojha5/bytebase/proto/generated-go/store"
 )
 
 // DataSourceMessage is the message for data source.

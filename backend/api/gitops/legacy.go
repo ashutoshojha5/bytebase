@@ -1,8 +1,8 @@
 package gitops
 
 import (
-	"github.com/bytebase/bytebase/backend/plugin/db"
-	"github.com/bytebase/bytebase/backend/store/model"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/db"
+	"github.com/ashutoshojha5/bytebase/backend/store/model"
 )
 
 // migrationDetail is the detail for database migration such as Migrate, Data.

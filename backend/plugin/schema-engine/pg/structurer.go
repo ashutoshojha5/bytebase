@@ -10,11 +10,11 @@ import (
 
 	postgres "github.com/bytebase/postgresql-parser"
 
-	pgparser "github.com/bytebase/bytebase/backend/plugin/parser/pg"
+	pgparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/pg"
 
-	"github.com/bytebase/bytebase/backend/plugin/parser/sql/ast"
-	pgrawparser "github.com/bytebase/bytebase/backend/plugin/parser/sql/engine/pg"
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	"github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/ast"
+	pgrawparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/sql/engine/pg"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 // ParseToMetadata converts a schema string to database metadata.

@@ -8,8 +8,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	api "github.com/bytebase/bytebase/backend/legacyapi"
-	"github.com/bytebase/bytebase/backend/store"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
+	"github.com/ashutoshojha5/bytebase/backend/store"
 )
 
 // validPlans is a string array of valid plan types.

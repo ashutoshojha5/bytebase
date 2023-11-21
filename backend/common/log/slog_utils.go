@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/bytebase/bytebase/backend/common/stacktrace"
+	"github.com/ashutoshojha5/bytebase/backend/common/stacktrace"
 )
 
 var GLogLevel *slog.LevelVar

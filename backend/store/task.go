@@ -12,8 +12,8 @@ import (
 	"github.com/jackc/pgtype"
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/common"
-	api "github.com/bytebase/bytebase/backend/legacyapi"
+	"github.com/ashutoshojha5/bytebase/backend/common"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
 )
 
 // TaskMessage is the message for tasks.

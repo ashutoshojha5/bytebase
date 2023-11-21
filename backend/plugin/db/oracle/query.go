@@ -9,7 +9,7 @@ import (
 
 	plsql "github.com/bytebase/plsql-parser"
 
-	plsqlparser "github.com/bytebase/bytebase/backend/plugin/parser/plsql"
+	plsqlparser "github.com/ashutoshojha5/bytebase/backend/plugin/parser/plsql"
 )
 
 // singleStatement must be a selectStatement for oracle.

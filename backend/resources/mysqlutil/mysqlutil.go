@@ -12,7 +12,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/bytebase/bytebase/backend/resources/utils"
+	"github.com/ashutoshojha5/bytebase/backend/resources/utils"
 )
 
 type binaryName string

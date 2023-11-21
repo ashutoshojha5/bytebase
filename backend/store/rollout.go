@@ -5,7 +5,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	api "github.com/bytebase/bytebase/backend/legacyapi"
+	api "github.com/ashutoshojha5/bytebase/backend/legacyapi"
 )
 
 // GetRollout gets the rollout by rollout ID.

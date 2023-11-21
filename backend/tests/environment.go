@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	v1pb "github.com/bytebase/bytebase/proto/generated-go/v1"
+	v1pb "github.com/ashutoshojha5/bytebase/proto/generated-go/v1"
 )
 
 // getProjects gets the environments.

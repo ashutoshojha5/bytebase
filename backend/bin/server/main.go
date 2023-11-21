@@ -4,7 +4,7 @@ package main
 import (
 	"os"
 
-	"github.com/bytebase/bytebase/backend/bin/server/cmd"
+	"github.com/ashutoshojha5/bytebase/backend/bin/server/cmd"
 )
 
 func main() {
